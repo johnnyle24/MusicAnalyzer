@@ -14,6 +14,14 @@
 		B2998B7B1CD45E3F006712FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2998B791CD45E3F006712FF /* LaunchScreen.storyboard */; };
 		B2998B861CD45E3F006712FF /* MusicAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998B851CD45E3F006712FF /* MusicAnalyzerTests.swift */; };
 		B2998B911CD45E3F006712FF /* MusicAnalyzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998B901CD45E3F006712FF /* MusicAnalyzerUITests.swift */; };
+		B2998BAA1CD4637D006712FF /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2998BA91CD4637C006712FF /* AudioKit.framework */; };
+		B2998BAB1CD4637D006712FF /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2998BA91CD4637C006712FF /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2998BAE1CD491C9006712FF /* How Deep is Your Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2998BAC1CD491C9006712FF /* How Deep is Your Love.mp3 */; };
+		B2998BAF1CD491C9006712FF /* Summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2998BAD1CD491C9006712FF /* Summer.mp3 */; };
+		B2998BB21CD54288006712FF /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998BB11CD54288006712FF /* SongQuery.swift */; };
+		B2998BB41CD552A4006712FF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998BB31CD552A4006712FF /* ViewController2.swift */; };
+		B2998BB61CD5E010006712FF /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998BB51CD5E010006712FF /* ViewController3.swift */; };
+		B2998BB81CD683E8006712FF /* MeterTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998BB71CD683E8006712FF /* MeterTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B2998BA51CD4606F006712FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2998BAB1CD4637D006712FF /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B2998B6D1CD45E3E006712FF /* MusicAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2998B701CD45E3E006712FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +69,13 @@
 		B2998B8C1CD45E3F006712FF /* MusicAnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAnalyzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2998B901CD45E3F006712FF /* MusicAnalyzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAnalyzerUITests.swift; sourceTree = "<group>"; };
 		B2998B921CD45E3F006712FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2998BA91CD4637C006712FF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		B2998BAC1CD491C9006712FF /* How Deep is Your Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "How Deep is Your Love.mp3"; sourceTree = "<group>"; };
+		B2998BAD1CD491C9006712FF /* Summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Summer.mp3; sourceTree = "<group>"; };
+		B2998BB11CD54288006712FF /* SongQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
+		B2998BB31CD552A4006712FF /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B2998BB51CD5E010006712FF /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B2998BB71CD683E8006712FF /* MeterTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeterTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2998BAA1CD4637D006712FF /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +107,7 @@
 		B2998B641CD45E3E006712FF = {
 			isa = PBXGroup;
 			children = (
+				B2998BA91CD4637C006712FF /* AudioKit.framework */,
 				B2998B6F1CD45E3E006712FF /* MusicAnalyzer */,
 				B2998B841CD45E3F006712FF /* MusicAnalyzerTests */,
 				B2998B8F1CD45E3F006712FF /* MusicAnalyzerUITests */,
@@ -97,12 +128,18 @@
 		B2998B6F1CD45E3E006712FF /* MusicAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				B2998BAC1CD491C9006712FF /* How Deep is Your Love.mp3 */,
+				B2998BAD1CD491C9006712FF /* Summer.mp3 */,
 				B2998B701CD45E3E006712FF /* AppDelegate.swift */,
 				B2998B721CD45E3F006712FF /* ViewController.swift */,
 				B2998B741CD45E3F006712FF /* Main.storyboard */,
 				B2998B771CD45E3F006712FF /* Assets.xcassets */,
 				B2998B791CD45E3F006712FF /* LaunchScreen.storyboard */,
 				B2998B7C1CD45E3F006712FF /* Info.plist */,
+				B2998BB11CD54288006712FF /* SongQuery.swift */,
+				B2998BB31CD552A4006712FF /* ViewController2.swift */,
+				B2998BB51CD5E010006712FF /* ViewController3.swift */,
+				B2998BB71CD683E8006712FF /* MeterTable.swift */,
 			);
 			path = MusicAnalyzer;
 			sourceTree = "<group>";
@@ -135,6 +172,7 @@
 				B2998B691CD45E3E006712FF /* Sources */,
 				B2998B6A1CD45E3E006712FF /* Frameworks */,
 				B2998B6B1CD45E3E006712FF /* Resources */,
+				B2998BA51CD4606F006712FF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,7 @@
 				TargetAttributes = {
 					B2998B6C1CD45E3E006712FF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GUQMUFFTA7;
 					};
 					B2998B801CD45E3F006712FF = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2998BAE1CD491C9006712FF /* How Deep is Your Love.mp3 in Resources */,
+				B2998BAF1CD491C9006712FF /* Summer.mp3 in Resources */,
 				B2998B7B1CD45E3F006712FF /* LaunchScreen.storyboard in Resources */,
 				B2998B781CD45E3F006712FF /* Assets.xcassets in Resources */,
 				B2998B761CD45E3F006712FF /* Main.storyboard in Resources */,
@@ -256,6 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2998BB61CD5E010006712FF /* ViewController3.swift in Sources */,
+				B2998BB21CD54288006712FF /* SongQuery.swift in Sources */,
+				B2998BB81CD683E8006712FF /* MeterTable.swift in Sources */,
+				B2998BB41CD552A4006712FF /* ViewController2.swift in Sources */,
 				B2998B731CD45E3F006712FF /* ViewController.swift in Sources */,
 				B2998B711CD45E3F006712FF /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +446,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AudioKit-iOS",
+				);
 				INFOPLIST_FILE = MusicAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.MusicAnalyzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +465,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AudioKit-iOS",
+				);
 				INFOPLIST_FILE = MusicAnalyzer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leviathan.MusicAnalyzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +545,7 @@
 				B2998B971CD45E3F006712FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2998B981CD45E3F006712FF /* Build configuration list for PBXNativeTarget "MusicAnalyzerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +554,7 @@
 				B2998B9A1CD45E3F006712FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2998B9B1CD45E3F006712FF /* Build configuration list for PBXNativeTarget "MusicAnalyzerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +563,7 @@
 				B2998B9D1CD45E3F006712FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
